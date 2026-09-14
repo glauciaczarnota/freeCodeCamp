@@ -1,0 +1,100 @@
+.holiday-checklist {
+  padding: 1em;
+  background: var(--primary-background);
+  border: 1px solid var(--quaternary-background);
+  margin-bottom: 1em;
+}
+
+.holiday-checklist-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.holiday-checklist-description {
+  margin: 0 0 1rem;
+}
+
+.holiday-checklist-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.holiday-checklist-bar-container {
+  flex: 1;
+  height: 8px;
+  border-radius: 0;
+  overflow: hidden;
+  background: var(--quaternary-background);
+}
+
+.holiday-checklist-bar-fill {
+  height: 100%;
+  background-color: var(--blue-mid);
+  border-radius: 0;
+  transition: width 0.3s ease;
+}
+
+.holiday-checklist-progress-text {
+  font-size: 0.875rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.holiday-checklist-days {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.holiday-checklist-day-title {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.holiday-checklist-tasks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.holiday-checklist-task {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: 1rem;
+  text-align: left;
+  color: var(--primary-color);
+}
+
+.holiday-checklist-task:hover {
+  background: none;
+  color: var(--primary-color);
+}
+
+.holiday-checklist-task.complete {
+  opacity: 0.7;
+}
+
+.holiday-checklist-checkbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}

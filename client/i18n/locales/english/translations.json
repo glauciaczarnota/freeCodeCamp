@@ -134,6 +134,12 @@
     "not-found": "Daily Coding Challenge Not Found.",
     "release-note": "The daily challenge updates at midnight US Central time."
   },
+  "holiday-checklist": {
+    "title": "Holiday Coding Checklist",
+    "description": "Small, optional tasks to help you keep learning through the winter holidays.",
+    "progress": "{{completed}} / {{total}} complete",
+    "day": "Day {{day}}"
+  },
   "weekdays": {
     "short": {
       "sunday": "S",
